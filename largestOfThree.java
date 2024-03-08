@@ -8,9 +8,9 @@ public class largestOfThree {
     int b=sc.nextInt();
     int c=sc.nextInt();
 
-    if(a>b && a>c){
+    if(a>=b && a>=c){
         System.out.println("A is largest");
-    }else if(b>c){
+    }else if(b>=c){
         System.out.println("B is largest");
     }else{
         System.out.println("C is Largest");
