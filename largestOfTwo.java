@@ -7,12 +7,15 @@ public class largestOfTwo {
         int a=sc.nextInt();
         int b=sc.nextInt();
 
-        if(a>b){
-            System.out.println("A is larger than B");
-        }else{
-            System.out.println("B is larger than A");
-        }
+        // if(a>b){
+        //     System.out.println("A is larger than B");
+        // }else{
+        //     System.out.println("B is larger than A");
+        // }
         
+
+        String result=(a>b)?"A is largest":"B is Laregst";
+        System.out.println(result);
     }
     
 }
